@@ -1,0 +1,25 @@
+.links{
+    
+    color: white;
+    font-family: futura, sans-serif;
+    text-decoration: none;
+
+    padding: 9.5px 23px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    border-radius: 50px;
+    border-style: none;
+    border-width: 0.5px;
+    border-color: #E08E6D;
+
+    background-color : none;
+}
+
+.links:hover{
+    background-color : rgb(0, 105, 146);
+}
+
+.links:active{
+    background-color : rgb(0, 183, 255);
+}
