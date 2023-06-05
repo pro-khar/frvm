@@ -1,6 +1,32 @@
 .layer_1{
+ 
+    border-style:none;
     border-color:none;
-    border-radius: 50px;
+    border-radius: 0 0 50px 0;
 
     background-color: beige;
+  
+    padding: 10% 10% 10% 10%;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 45%;
+
+    position: relative;
+}
+
+.layer_2{
+ 
+    border-style:none;
+    border-color:none;
+    border-radius: 0 0 50px 0;
+
+    background-color:blueviolet;
+  
+    padding: 10% 10% 10% 10%;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 45%;
+
+    position: absolute;
+    z-index: 1;
 }
